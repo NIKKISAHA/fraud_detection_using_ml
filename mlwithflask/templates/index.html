@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="ok">
+        <div class="container">
+            <h1>Fraud Detection</h1>
+            <form action="/" method="post">
+                <label for="Transaction_Amount">Transaction Amount:</label>
+                <input type="text" id="Transaction_Amount" name="Transaction_Amount" required>
+                <br>
+                <label for="Amount_paid">Amount Paid:</label>
+                <input type="text" id="Amount_paid" name="Amount_paid" required>
+                <br>
+                <label for="Vehicle_Speed">Vehicle Speed:</label>
+                <input type="text" id="Vehicle_Speed" name="Vehicle_Speed" required>
+                <br>
+                <button type="submit">Predict</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
