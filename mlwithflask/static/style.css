@@ -48,16 +48,17 @@ h2{
     font-size: 30px;
     text-decoration: underline;
 }
-.row100{
+label{
     display: flex;
-    margin-left: -110px;
+    /* margin-left: -110px; */
+    align-items: center;
    
     justify-content: center;
     flex-direction: column;
-}
-.col{
     margin-top: 25px;
+
 }
+
 .container{
     position: relative;
     z-index: 5;
@@ -107,14 +108,16 @@ h1{
 
 }
 button{
-    position: relative;
+    /* position: relative; */
     padding: 10px 20px;
     background-color: rgb(36, 108, 241);
     box-shadow:solid 0.50px rgba(0, 0, 0, .80);
     border-radius: 26px;
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
-    margin-top: 18px;
+    margin-top: 16px;
+    margin-left: 56px;
+
     border: 1px solid rgba(7, 6, 6, 0.144);
     border-right: 1px solid rgba(5, 3, 3, 0.1);
     border-bottom: 1px solid rgba(5, 4, 4, 0.1);
